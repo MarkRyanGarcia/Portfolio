@@ -1,3 +1,3 @@
-### Repo for upcoming Portfolio Site
+# Mark's Portfolio Site :)
 
-I am new to this idk what im doing tbh
+[Visit here](https://www.markg.dev)(WIP)
