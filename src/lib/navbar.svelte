@@ -1,5 +1,4 @@
 <script>
-
     const nav = [
         {
             name: "Home",
@@ -13,6 +12,12 @@
             // src: "",
             alt: "Projects"
         },
+        {
+            name: "Contact",
+            href: "/contact",
+            // src: "",
+            alt: "Contact",
+        }
     ];
 </script>
 
@@ -22,13 +27,9 @@
     <div></div>
     <div class="rightdisplay">
         {#each nav.entries() as [index, item]}
-            {#if item.routine !== undefined}
-            <img src={item.src} alt={item.alt} class="item" on:click={item.routine}/>
-            {:else}
             <a href={item.href}>
-            <img src={item.src} alt={item.alt} class="item"/>
+                <img src={item.src} alt={item.alt} class="item"/>
             </a>
-            {/if}
             {#if index < nav.length - 1}
                 <div class="divider"></div>
             {/if}
@@ -42,6 +43,7 @@
     .container {
         /* Styling  */
         border-bottom: 0.25rem solid var(--color3);
+        border-left: 0.25rem solid var(--color3);
         /* Priority */
         z-index: 20;
         background-color: var(--color4);
@@ -66,20 +68,16 @@
         margin-left: 0.5rem;
         display: grid;
         grid-template-rows: 3rem;
-        grid-template-columns: repeat(1, 3rem 1.5rem) 3rem;
+        grid-template-columns: repeat(2, 3rem 1.5rem) 3rem;
     }
     /* The silly little images */
     .item {
+        color: var(--color1);
         height: 3rem;
         width: 3rem;
-        -webkit-filter: invert(1);
-        filter: invert(1);
-        margin-left: 0;
-        margin-right: 0;
     }
     .item:hover {
-        -webkit-filter: invert(0.75);
-        filter: invert(0.75);
+        color: var(--color2);
         cursor: pointer;
     }
     /* The silly little dividers */
