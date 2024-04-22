@@ -2,6 +2,6 @@
 
 </script>
 
-<h1>Mark Ryan Garcia</h1>
-<p>I like to code :)</p>
+<h1 align="center">Hello! I'm Mark (:</h1>
+<h3 align="center">I like to code :)</h3>
 This is where I'll post my projects eventually lol

@@ -1,3 +1,3 @@
 # Mark's Portfolio Site :)
 
-[Visit here](https://www.markg.dev)(WIP)
+(WIP) [Visit here](https://www.markg.dev)

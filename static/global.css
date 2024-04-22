@@ -1,5 +1,17 @@
+
+/* #E63946  F1FAEE  A8DADC  457B9D  1D3557 */
+
+:root {
+    --color1:#E63946;
+    --color2:#F1FAEE;
+    --color3:#A8DADC;
+    --color4:#457B9D;
+    --color5:#1D3557;
+}
+
+
 body {
-    background-color: #2E3440;
+    background-color: var(--color5);
     color: #eceff4;
     font-family: 'Poppins', sans-serif;
 }
