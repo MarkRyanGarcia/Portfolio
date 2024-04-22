@@ -1,5 +1,11 @@
+<script>
+    import Navbar from '$lib/navbar.svelte';
+</script>
+
+<Navbar />
 
 
 <h1 class="text-center text-4xl font-bold">Hello! I'm Mark (:</h1>
 <h3 class="text-center text-2xl">I like to code :)</h3>
-This is where I'll post my projects eventually lol
+
+As you can see, this page is pretty empty at the moment
