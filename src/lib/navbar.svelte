@@ -81,12 +81,12 @@
         cursor: pointer;
     }
     /* The silly little dividers */
-    .divider {
-        margin-left: 0.675rem;
-        margin-right: 0.675rem;
-        margin-top: 0.25rem;
-        height: 2.5rem;
-        width: 0.15rem;
-        background-color: var(--color3);
-    }
+        .divider {
+            margin-left: 0.675rem;
+            margin-right: 0.675rem;
+            margin-top: 0.25rem;
+            height: 2.5rem;
+            width: 0.15rem;
+            background-color: var(--color3);
+        }
 </style>
