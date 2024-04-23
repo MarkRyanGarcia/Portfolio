@@ -12,8 +12,8 @@ As you can see, this page is pretty empty at the moment
 
 <header class="container">
     <h1 class="title">Sick Box</h1>
-    <p>This is a pretty funky box don't ya think?</p>
-        <p>
+    <p class="font-bold">This is a pretty funky box don't ya think?</p>
+        <p class="font-bold">
             I have no idea what im gonna put in here but oh boy its gonna be epic
         </p>
 </header>
@@ -26,10 +26,7 @@ As you can see, this page is pretty empty at the moment
         /* Center the grid itself */
         width: 40%;
         height: 80%;
-        margin-top: 10%;
-        margin-bottom: 10%;
-        margin-left: 37.5%;
-        margin-right: 37.5%;
+        margin: auto;
         background-color: var(--color4);
         border-radius: 8px;
         /* border-color: var(--color3); */
