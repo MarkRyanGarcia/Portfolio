@@ -44,6 +44,7 @@
         /* Styling  */
         border-bottom: 0.25rem solid var(--color3);
         border-left: 0.25rem solid var(--color3);
+        border-radius: 4px;
         /* Priority */
         z-index: 20;
         background-color: var(--color4);
