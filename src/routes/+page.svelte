@@ -12,7 +12,7 @@ As you can see, this page is pretty empty at the moment
 
 <header class="container">
     <h1 class="title">Sick Box</h1>
-    <p class="font-bold">This is a pretty funky box don't ya think?</p>
+    <p class="font-bold">This box is sick :/ needs medicine<!--This is a pretty funky box don't ya think?--></p>
         <p class="font-bold">
             I have no idea what im gonna put in here but oh boy its gonna be epic
         </p>
