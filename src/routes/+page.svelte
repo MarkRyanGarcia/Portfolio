@@ -29,7 +29,6 @@ As you can see, this page is pretty empty at the moment
         margin: auto;
         background-color: var(--color4);
         border-radius: 8px;
-        /* border-color: var(--color3); */
     }
     .title {
         text-align: center;
