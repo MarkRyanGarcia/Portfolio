@@ -8,8 +8,8 @@
         },
         {
             name: "Projects",
-            href: "/projects",
-            // src: "",
+            href: "https://github.com/MarkRyanGarcia",
+            src: "/github.svg",
             alt: "Projects"
         },
         {
