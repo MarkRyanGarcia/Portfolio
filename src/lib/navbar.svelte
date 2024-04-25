@@ -53,5 +53,10 @@
   .button:hover {
     color: var(--color1);
     background: white;
-}
+  }
+
+  .button-icon {
+    margin-right: 5px;
+  }
+
 </style>
