@@ -1,5 +1,14 @@
+<script>
+    function scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'  
+      });
+    }
+  </script>
+
 <div class="navbar">
-    <button class="button">
+    <button class="button" on:click={scrollToTop}>
       <span class="button-icon">
         <img src="/favicon.png" alt="Home" width="24" height="24">
       </span> Home
@@ -11,7 +20,7 @@
       </a>
     <a class="button" href="https://pillo.dev/" target="_blank">
       <span class="button-icon" >
-        <img src="/heart-eyes.svg" alt="Link to Pillow's Site" width="24" height="24">
+        <img src="/heart-eyes.svg" alt="Pillow" width="24" height="24">
       </span> Pookie
     </a>
 </div>
@@ -20,8 +29,6 @@
 <style>
     .navbar {
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     z-index: 100;
     display: flex;
