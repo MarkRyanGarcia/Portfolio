@@ -1,6 +1,7 @@
 <script>
     import Navbar from '$lib/navbar.svelte';
+    
+    import Waves from '$lib/waves.svelte';
 </script>
 <Navbar />
-
-This is where I will post contact info
+<Waves />
