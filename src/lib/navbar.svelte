@@ -25,7 +25,6 @@
     </a>
 </div>
 
-
 <style>
     .navbar {
     position: fixed;
@@ -55,8 +54,4 @@
     color: var(--color1);
     background: white;
 }
-
-  .button-icon {
-    margin-right: 5px;
-  }
 </style>
