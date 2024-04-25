@@ -34,20 +34,27 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: #333;
+    background-color: transparent;
     padding: 10px 20px;
   }
 
   .button {
-    background-color: #555;
+    background: transparent;
     color: white;
     border: none;
+    font-weight: 700;
     padding: 10px 20px;
     margin-left: 10px;
     border-radius: 80px;
     display: flex;
     align-items: flex-end;
+    transition: all 0.2s ease-in-out;
   }
+
+  .button:hover {
+    color: var(--color1);
+    background: white;
+}
 
   .button-icon {
     margin-right: 5px;
