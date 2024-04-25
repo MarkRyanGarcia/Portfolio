@@ -12,11 +12,17 @@
             src: "/github.svg",
             alt: "Projects"
         },
+        // {
+        //     name: "Contact",
+        //     href: "/contact",
+        //     // src: "",
+        //     alt: "Contact",
+        // },
         {
-            name: "Contact",
-            href: "/contact",
-            // src: "",
-            alt: "Contact",
+            name: "Dark Theme",
+            href: "https://www.pillo.dev/",
+            src: "/heart-eyes.svg",
+            alt: "Dark Theme Button"
         }
     ];
 </script>
