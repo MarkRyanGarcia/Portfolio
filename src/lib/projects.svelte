@@ -18,20 +18,20 @@
 
 <style>
     .projectcontainer {
-        border-color: red;
+        /* border-color: red; */
         width: 100%;
-        border-width: 2px;
+        /* border-width: 2px; */
 
     }
     .project {
         display: flex;
         width: 600px;
         height: 800px;
-        border-color: blue;
+        /* border-color: blue; */
         background-color: rgba(84,58,183,.2);
-        border-width: 2px;
+        /* border-width: 2px; */
         justify-content: flex-start;
-
+        border-radius: 2rem;
         align-items: center;
         flex-direction: column;
     }

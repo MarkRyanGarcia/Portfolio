@@ -1,20 +1,18 @@
 <script>
-    // import { onMount } from 'svelte';
-    
-    // onMount(() => {
-    //     alert("hi");
-    //     document.addEventListener('scroll', () => {
-    //         const nav = document.querySelector('.navbar');
-    //         alert("hi");
-    //         if (nav == null) return;
-    //         const scrollamnt = document.documentElement.scrollTop || document.body.scrollTop;
-    //         if (scrollamnt > 64 * 10.8) {
-    //             nav.style.color = "black";
-    //         } else {
-    //             nav.style.color = "white";
-    //         }
-    //     });
-    // });
+      import { onMount } from 'svelte';
+  onMount(() => {
+    alert("hi")
+    document.addEventListener('scroll', () => {
+      const nav = document.querySelector('.navbar');
+      if (nav === null) return;
+      const scrollamnt = document.documentElement.scrollTop || document.body.scrollTop;
+      if (scrollamnt > 64 * 10.8) {
+        nav.style.color = "black";
+      } else {
+        nav.style.color = "white";
+      }
+    })
+  });
 
     function scrollToTop() {
       window.scrollTo({
@@ -56,7 +54,7 @@
 
   .button {
     background: transparent;
-    color: white;
+    /* color: white; */
     border: none;
     font-weight: 700;
     padding: 10px 20px;
@@ -69,7 +67,7 @@
 
   .button:hover {
     color: var(--color1);
-    background: white;
+    /* background: white; */
   }
 
   .button-icon {
