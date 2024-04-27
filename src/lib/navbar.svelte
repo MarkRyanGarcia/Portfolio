@@ -15,6 +15,30 @@
     //     })
     // });
 
+    const Navbuttons = [
+        // NOTE:
+        // EACH BUTTON MUST EITHER HAVE AN href OR AN onclick PROPERTY
+        {
+            text: 'Home',
+            src: '/favicon.png',
+            alt: 'Home Button',
+            onclick: 'scrollToTop',
+        },
+        {
+            text: 'My Github',
+            src: '/github.svg',
+            alt: 'Github Profile',
+            href: 'https://github.com/MarkRyanGarcia',
+
+        },
+        {
+            text: 'Pookie',
+            src: '/heart-eyes.svg',
+            href: 'https://pillo.dev/',
+            alt: 'Pillow',
+        },
+    ];
+
     function scrollToTop() {
       window.scrollTo({
         top: 0,
@@ -24,21 +48,21 @@
   </script>
 
 <div class="navbar">
-    <button class="button" on:click={scrollToTop}>
-      <span class="button-icon">
-        <img src="/favicon.png" alt="Home" width="24" height="24">
-      </span> Home
-    </button>
-    <a class="button" href="https://github.com/MarkRyanGarcia" target="_blank">
-        <span class="button-icon" >
-          <img src="/github.svg" alt="Github Profile" width="24" height="24">
-        </span> My Github
-      </a>
-    <a class="button" href="https://pillo.dev/" target="_blank">
-      <span class="button-icon" >
-        <img src="/heart-eyes.svg" alt="Pillow" width="24" height="24">
-      </span> Pookie
-    </a>
+    {#each Navbuttons.entries() as [index, item]}
+        {#if item.href}
+        <a class="button" href={item.href} target="_blank">
+            <span class="button-icon">
+                <img src={item.src} alt={item.alt} width="24" height="24">
+            </span> {item.text}
+        </a>
+        {:else}
+        <button class="button on:click={item.onclick}">
+            <span class="button-icon">
+                <img src={item.src} alt={item.alt} width="24" height="24">
+            </span> {item.text}
+        </button>
+        {/if}
+    {/each}
 </div>
 
 <style>
