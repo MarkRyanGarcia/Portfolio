@@ -34,8 +34,8 @@
         {
             text: 'Pookie',
             src: '/heart-eyes.svg',
-            href: 'https://pillo.dev/',
             alt: 'Pillow',
+            href: 'https://pillo.dev/',
         },
     ];
 
