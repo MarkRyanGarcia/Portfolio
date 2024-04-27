@@ -4,7 +4,7 @@
             title: "Marktris",
             description: "A Tetris clone made in godot. It includes many in-game features to make the game as faithful to modern tetris as possible. This includes 7-bag, wall-kicks, the Super Rotation System, and will soon include more. Web Deployment coming soon...",
             alt: "Tetris Clone Project",
-            href: '',
+            // href: '',
             images: [
                 {
                 src: "/ProjectImages/TitleScreen.png",
@@ -35,7 +35,7 @@
                 width: "300px",
                 }
             ]
-        }
+        },
     ];
 </script>
 
@@ -51,9 +51,9 @@
                 <h3 class="text-4xl font-bold text-white custommargins">
                     {item.title}
                 </h3>
-                <p class="text-white text-center custommargins">
+                <a class="text-white text-center custommargins" href={item.href} target="_blank">
                     {item.description}
-                </p>
+                </a>
                 {#if item.images.length !== 0}
                     {#each item.images as image}
                     <a class="custommargins">
