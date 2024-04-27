@@ -27,15 +27,17 @@
 <div class="projectcontainer">
     {#each ProjectList.entries() as [index, item]}
         <div class="project">
-            <h3 class="text-4xl font-bold text-gray-950">
+            <h3 class="text-4xl font-bold text-white custommargins">
                 {item.title}
             </h3>
-            <p class="text-black text-center">
+            <p class="text-white text-center custommargins">
                 {item.description}
             </p>
             {#if item.images.length !== 0}
                 {#each item.images as image}
+                <a class="custommargins">
                 <img src={image.src} alt={image.alt} title={image.alt} width="400">
+                </a>
                 {/each}
             {/if}
         </div>
@@ -49,17 +51,24 @@
         display: flex;
         width: 100%;
         justify-content: space-around;
+        margin-bottom: 2rem;
     }
     .project {
-        /* border-color: blue; */
-        /* border-width: 2px; */
+        border: 10px solid transparent;
+        border-image: linear-gradient(to bottom left, #E0F0F0, #C0C0E0) 1;
+        border-width: 10px;
         display: flex;
         width: 600px;
         height: 800px;
-        background-color: rgba(40,115,190,.6);
+        background-color: rgba(0,172,193,1);
         justify-content: flex-start;
         border-radius: 1rem;
         align-items: center;
         flex-direction: column;
+        background-image: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%); 
+    }
+    .custommargins {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
     }
 </style>
