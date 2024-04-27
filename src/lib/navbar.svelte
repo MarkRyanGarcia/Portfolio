@@ -56,7 +56,7 @@
             </span> {item.text}
         </a>
         {:else}
-        <button class="button on:click={item.onclick}">
+        <button class="button" on:click={item.onclick}>
             <span class="button-icon">
                 <img src={item.src} alt={item.alt} width="24" height="24">
             </span> {item.text}

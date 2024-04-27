@@ -7,7 +7,3 @@
 <Navbar />
 <Waves />
 <Projects />
-
-<!-- 
-<div> _</div>
-<div> _</div> -->

@@ -73,6 +73,7 @@
         width: 100%;
         justify-content: space-around;
         margin-bottom: 2rem;
+        margin-top: 1rem;
     }
 
     .project {
