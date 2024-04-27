@@ -22,7 +22,7 @@
             text: 'Home',
             src: '/favicon.png',
             alt: 'Home Button',
-            onclick: 'scrollToTop',
+            onclick: scrollToTop,
         },
         {
             text: 'My Github',
@@ -56,7 +56,7 @@
             </span> {item.text}
         </a>
         {:else}
-        <button class="button" on:click={scrollToTop}>
+        <button class="button" on:click={item.onclick}>
             <span class="button-icon">
                 <img src={item.src} alt={item.alt} width="24" height="24">
             </span> {item.text}
