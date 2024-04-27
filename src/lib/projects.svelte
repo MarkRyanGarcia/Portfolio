@@ -62,7 +62,6 @@
         height: 800px;
         background-color: rgba(0,172,193,1);
         justify-content: flex-start;
-        border-radius: 1rem;
         align-items: center;
         flex-direction: column;
         background-image: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%); 
