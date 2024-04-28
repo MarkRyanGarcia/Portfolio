@@ -31,6 +31,12 @@
             href: 'https://github.com/MarkRyanGarcia',
 
         },
+        {
+            text: 'Linkedin',
+            src: '/linkedin.svg',
+            alt: 'Linkedin Profile',
+            href: 'https://www.linkedin.com/in/mark-garcia-aa9b2b306/',
+        },
     ];
 
     function scrollToTop() {
