@@ -31,12 +31,6 @@
             href: 'https://github.com/MarkRyanGarcia',
 
         },
-        {
-            text: 'Pookie',
-            src: '/heart-eyes.svg',
-            alt: 'Pillow',
-            href: 'https://pillo.dev/',
-        },
     ];
 
     function scrollToTop() {
