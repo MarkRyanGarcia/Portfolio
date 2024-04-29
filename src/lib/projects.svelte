@@ -36,6 +36,7 @@
                 }
             ]
         },
+        
     ];
 </script>
 
@@ -47,21 +48,21 @@
 </div>
 <div class="projectcontainer">
     {#each ProjectList.entries() as [index, item]}
-            <div class="project">
-                <h3 class="text-4xl font-bold text-white custommargins">
-                    {item.title}
-                </h3>
-                <a class="text-white text-center custommargins" href={item.href} target="_blank">
-                    {item.description}
+        <div class="project">
+            <h3 class="text-4xl font-bold text-white custommargins">
+                {item.title}
+            </h3>
+            <a class="text-white text-center custommargins" href={item.href} target="_blank">
+                {item.description}
+            </a>
+            {#if item.images.length !== 0}
+                {#each item.images as image}
+                <a class="custommargins">
+                <img src={image.src} alt={image.alt} title={image.alt} width={image.width}>
                 </a>
-                {#if item.images.length !== 0}
-                    {#each item.images as image}
-                    <a class="custommargins">
-                    <img src={image.src} alt={image.alt} title={image.alt} width={image.width}>
-                    </a>
-                    {/each}
-                {/if}
-            </div>
+                {/each}
+            {/if}
+        </div>
     {/each}
 </div>
 
@@ -74,20 +75,24 @@
         justify-content: space-around;
         margin-bottom: 2rem;
         margin-top: 1rem;
+        
     }
 
     .project {
         border: 10px solid transparent;
         border-image: linear-gradient(to bottom left, #E0F0F0, #C0C0E0) 1;
+        border-color: red;
+        border-radius: 2rem;
         border-width: 10px;
         display: flex;
-        width: 600px;
-        height: 800px;
+        width: 30%;
+        height: 20%;
         background-color: rgba(0,172,193,1);
         justify-content: flex-start;
         align-items: center;
         flex-direction: column;
         background-image: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%); 
+
     }
 
     .custommargins {
