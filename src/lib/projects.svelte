@@ -42,7 +42,7 @@
 
 
 <div>
-    <h1 class="text-5xl font-bold text-red-600">
+    <h1 class="text-5xl font-bold text-red-600 text-center">
         Projects
     </h1>
 </div>
@@ -85,6 +85,7 @@
         border-radius: 2rem;
         border-width: 10px;
         display: flex;
+        flex-wrap: wrap;
         width: 30%;
         height: 20%;
         background-color: rgba(0,172,193,1);
