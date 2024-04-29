@@ -36,6 +36,42 @@
                 }
             ]
         },
+        {
+            title: "Marktris",
+            description: "A Tetris clone made in godot. It includes many in-game features to make the game as faithful to modern tetris as possible. This includes 7-bag, wall-kicks, the Super Rotation System, and will soon include more. Web Deployment coming soon...",
+            alt: "Tetris Clone Project",
+            // href: '',
+            images: [
+                {
+                src: "/ProjectImages/TitleScreen.png",
+                alt: "Tetris Title Screen Screenshot",
+                width: "400px",
+                },
+                {
+                src: "/ProjectImages/marktrisscreenshot2.png",
+                alt: "Tetris Project Screenshot",
+                width: "400px",
+                }
+            ]
+        },
+        {
+            title: "NeonChat",
+            description: "Submission for Fullyhacks 2024. Neonchat is a Bluetooth-based direct messaging chatbox that allows seamless communication between devices.",
+            alt: 'Fullyhacks24 Submission',
+            href: 'https://jowen-ster.github.io/FULLYHACKS_NEONCHAT/',
+            images: [
+                {
+                src: "/ProjectImages/neonchat1.png",
+                alt: "NeonChat Home Screen",
+                width: "330px",
+                },
+                {
+                src: "/ProjectImages/neonchat2.png",
+                alt: "NeonChat Message Screen",
+                width: "300px",
+                }
+            ]
+        },
         
     ];
 </script>
@@ -71,6 +107,7 @@
         /* border-color: red; */
         /* border-width: 2px; */
         display: flex;
+        flex-wrap: wrap;
         width: 100%;
         justify-content: space-around;
         margin-bottom: 2rem;
@@ -99,5 +136,12 @@
     .custommargins {
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
+    }
+
+    /*Shrinking for mobile*/
+    @media (max-width: 768px) {
+    .project {
+        width: 90%;
+    }
     }
 </style>
