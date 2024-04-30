@@ -52,13 +52,13 @@
         {#if item.href}
         <a class="button" href={item.href} target="_blank">
             <span class="button-icon">
-                <img src={item.src} alt={item.alt} width="24" height="24">
+                <img src={item.src} alt={item.alt} width="25rem" height="25rem">
             </span> {item.text}
         </a>
         {:else}
         <button class="button" on:click={item.onclick}>
             <span class="button-icon">
-                <img src={item.src} alt={item.alt} width="24" height="24">
+                <img src={item.src} alt={item.alt} width="25rem" height="25rem">
             </span> {item.text}
         </button>
         {/if}
