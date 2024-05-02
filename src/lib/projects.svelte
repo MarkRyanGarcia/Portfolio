@@ -80,8 +80,8 @@
 
     .project {
         border: 10px solid transparent;
-        border-image: linear-gradient(to bottom left, #E0F0F0, #C0C0E0) 1;
-        border-color: red;
+        /* border-image: linear-gradient(to bottom left, #E0F0F0, #C0C0E0) 1; */
+        border-color: #CFD6E7;
         border-radius: 2rem;
         border-width: 10px;
         display: flex;
