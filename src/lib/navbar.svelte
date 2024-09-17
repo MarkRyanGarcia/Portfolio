@@ -35,7 +35,7 @@
             text: 'Linkedin',
             src: '/linkedin.svg',
             alt: 'Linkedin Profile',
-            href: 'https://www.linkedin.com/in/mark-garcia-aa9b2b306/',
+            href: 'https://www.linkedin.com/in/mark-ryan-garcia-aa9b2b306/',
         },
     ];
 
