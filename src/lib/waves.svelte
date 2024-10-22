@@ -2,9 +2,12 @@
 
     <!-- Waves -->
     <div class="inner-header flex">
-        <img src={'/favicon.png'} alt="Dog Icon" class="item"/>
+        <img class="circle-image" src={'/Mark.jpg'} alt="Profile Pic">
+    </div>
+    <div>
         <h1>Mark Garcia</h1>
     </div>
+
     <div>
         <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
         viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
@@ -32,6 +35,7 @@
 <style>
 
 h1 {
+  margin-top: -9rem;
   font-family: 'Poppins', sans-serif;
   font-weight:300;
   letter-spacing: 2px;
@@ -80,6 +84,16 @@ p {
   text-align:center;
   background-color: white;
 }
+
+.circle-image {
+        width: 20rem; /* Set the desired width */
+        height: 20rem; /* Set the desired height */
+        border-radius: 50%; /* Makes the image circular */
+        object-fit: cover; /* Ensures the image covers the circle */
+        overflow: hidden; /* Ensures the image doesn't overflow */
+        border: 2px solid #ccc; /* Optional: adds a border */
+
+    }
 
 /* Animation */
 
