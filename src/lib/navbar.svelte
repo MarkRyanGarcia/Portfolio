@@ -112,7 +112,7 @@
     background: white;
   }
 
-  .button-icon img {
+  .button-icon {
     width: 3vw;
     height: 3vw;
   }
