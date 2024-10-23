@@ -43,6 +43,7 @@ h1 {
 
 #name {
     margin-top: -9rem;
+    margin-bottom: 2rem;
 }
 
 p {
@@ -142,7 +143,8 @@ p {
     font-size:24px;
   }
   #name {
-    margin-top: 0rem;
+    margin-top: -8rem;
+    margin-bottom: 5rem;
   }
   .circle-image {
         width: 12rem;
