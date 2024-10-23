@@ -92,11 +92,12 @@ p {
 .circle-image {
         width: 25vw;
         height: 25vw;
+        min-width: 15rem;
+        min-height: 15rem;
         border-radius: 50%;
         object-fit: cover;
         overflow: hidden;
         border: 5px solid #ccc;
-
 }
 
 /* Animation */
