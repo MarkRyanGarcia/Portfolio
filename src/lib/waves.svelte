@@ -3,8 +3,6 @@
     <!-- Waves -->
     <div class="inner-header flex">
         <img class="circle-image" src={'/Mark.jpg'} alt="Profile Pic">
-    </div>
-    <div>
         <h1 id="name">Mark Garcia</h1>
     </div>
 
@@ -42,8 +40,8 @@ h1 {
 }
 
 #name {
-    margin-top: -9rem;
     margin-bottom: 2rem;
+    font-size: 5vw;
 }
 
 p {
@@ -69,6 +67,7 @@ p {
 
 .flex { 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -91,8 +90,8 @@ p {
 }
 
 .circle-image {
-        width: 20rem;
-        height: 20rem;
+        width: 25vw;
+        height: 25vw;
         border-radius: 50%;
         object-fit: cover;
         overflow: hidden;
@@ -139,17 +138,13 @@ p {
   .content {
     height:30vh;
   }
-  h1 {
-    font-size:24px;
-  }
   #name {
-    margin-top: -3rem;
     margin-bottom: 5rem;
   }
-  .circle-image {
+  /* .circle-image {
         width: 12rem;
         height: 12rem;
         border: 3px solid #ccc;
-  }
+  } */
 }
 </style>

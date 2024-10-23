@@ -104,10 +104,12 @@
 
   @media (max-width: 768px) {
     .button {
-    font-size: 1.8vw;
+    font-size: 3vw;
     padding: 8px 15px;
     margin-left: 8px;
     border-radius: 50px;
+    color: var(--color1);
+    background: white;
   }
 
   .button-icon img {
