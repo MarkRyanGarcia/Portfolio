@@ -94,6 +94,7 @@
   .button:hover {
     color: var(--color1);
     background: white;
+    /* border: 1px solid black; */
   }
 
   .button-icon {
@@ -110,6 +111,7 @@
     border-radius: 50px;
     color: var(--color1);
     background: white;
+    border: 1px solid black;
   }
 
   .button-icon {
