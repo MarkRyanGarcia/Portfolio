@@ -79,6 +79,7 @@
 
   .button {
     background: transparent;
+    font-size: 1vw;
     color: white;
     border: none;
     font-weight: 700;
@@ -97,22 +98,21 @@
 
   .button-icon {
     margin-right: 5px;
-    width: 1.7rem;
-    height: 1.7rem;
+    width: 3vw;
+    height: 3vw;
   }
 
   @media (max-width: 768px) {
     .button {
-    font-size: 14px;
+    font-size: 1.8vw;
     padding: 8px 15px;
     margin-left: 8px;
     border-radius: 50px;
-    display: flex;
   }
 
   .button-icon img {
-    width: 2rem;
-    height: 2rem;
+    width: 3vw;
+    height: 3vw;
   }
 }
 
