@@ -52,13 +52,13 @@
         {#if item.href}
         <a class="button" href={item.href} target="_blank">
             <span class="button-icon">
-                <img src={item.src} alt={item.alt} width="25rem" height="25rem">
+                <img src={item.src} alt={item.alt}>
             </span> {item.text}
         </a>
         {:else}
         <button class="button" on:click={item.onclick}>
             <span class="button-icon">
-                <img src={item.src} alt={item.alt} width="25rem" height="25rem">
+                <img src={item.src} alt={item.alt}>
             </span> {item.text}
         </button>
         {/if}
@@ -97,6 +97,23 @@
 
   .button-icon {
     margin-right: 5px;
+    width: 1.7rem;
+    height: 1.7rem;
   }
+
+  @media (max-width: 768px) {
+    .button {
+    font-size: 14px;
+    padding: 8px 15px;
+    margin-left: 8px;
+    border-radius: 50px;
+    display: flex;
+  }
+
+  .button-icon img {
+    width: 2rem;
+    height: 2rem;
+  }
+}
 
 </style>

@@ -143,7 +143,7 @@ p {
     font-size:24px;
   }
   #name {
-    margin-top: -5rem;
+    margin-top: -3rem;
     margin-bottom: 5rem;
   }
   .circle-image {
