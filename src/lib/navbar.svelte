@@ -113,8 +113,8 @@
   }
 
   .button-icon img {
-    width: 5vw;
-    height: 5vw;
+    width: 3vw;
+    height: 3vw;
   }
 }
 
