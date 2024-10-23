@@ -98,8 +98,8 @@
 
   .button-icon {
     margin-right: 5px;
-    width: 3vw;
-    height: 3vw;
+    width: 2rem;
+    height: 2rem;
   }
 
   @media (max-width: 768px) {
@@ -113,8 +113,8 @@
   }
 
   .button-icon img {
-    width: 3vw;
-    height: 3vw;
+    width: 5vw;
+    height: 5vw;
   }
 }
 
