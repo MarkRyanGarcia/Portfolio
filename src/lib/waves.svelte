@@ -5,7 +5,7 @@
         <img class="circle-image" src={'/Mark.jpg'} alt="Profile Pic">
     </div>
     <div>
-        <h1>Mark Garcia</h1>
+        <h1 id="name">Mark Garcia</h1>
     </div>
 
     <div>
@@ -35,12 +35,16 @@
 <style>
 
 h1 {
-  margin-top: -9rem;
   font-family: 'Poppins', sans-serif;
   font-weight:300;
   letter-spacing: 2px;
   font-size:48px;
 }
+
+#name {
+    margin-top: -9rem;
+}
+
 p {
   font-family: 'Poppins', sans-serif;
   letter-spacing: 1px;
@@ -86,14 +90,14 @@ p {
 }
 
 .circle-image {
-        width: 20rem; /* Set the desired width */
-        height: 20rem; /* Set the desired height */
-        border-radius: 50%; /* Makes the image circular */
-        object-fit: cover; /* Ensures the image covers the circle */
-        overflow: hidden; /* Ensures the image doesn't overflow */
-        border: 2px solid #ccc; /* Optional: adds a border */
+        width: 20rem;
+        height: 20rem;
+        border-radius: 50%;
+        object-fit: cover;
+        overflow: hidden;
+        border: 5px solid #ccc;
 
-    }
+}
 
 /* Animation */
 
@@ -136,6 +140,14 @@ p {
   }
   h1 {
     font-size:24px;
+  }
+  #name {
+    margin-top: -13rem;
+  }
+  .circle-image {
+        width: 12rem;
+        height: 12rem;
+        border: 3px solid #ccc;
   }
 }
 </style>
