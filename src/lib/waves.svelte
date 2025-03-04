@@ -2,7 +2,7 @@
 
     <!-- Waves -->
     <div class="inner-header flex">
-        <img class="circle-image" src={'/Mark.jpg'} alt="Profile Pic">
+        <img class="circle-image" src={'/image.png'} alt="Profile Pic">
         <h1 id="name">Mark Garcia</h1>
     </div>
 
