@@ -56,7 +56,6 @@
             </a>
             {#if item.images.length !== 0}
                 {#each item.images as image}
-                <!-- svelte-ignore a11y-missing-attribute -->
                 <a class="custommargins">
                 <img src={image.src} alt={image.alt} title={image.alt} width={image.width}>
                 </a>
@@ -68,8 +67,6 @@
 
 <style>
     .projectcontainer {
-        /* border-color: red; */
-        /* border-width: 2px; */
         display: flex;
         flex-wrap: wrap;
         width: 100%;
@@ -81,7 +78,6 @@
 
     .project {
         border: 10px solid transparent;
-        /* border-image: linear-gradient(to bottom left, #E0F0F0, #C0C0E0) 1; */
         border-color: #CFD6E7;
         border-radius: 2rem;
         border-width: 10px;

@@ -1,5 +1,4 @@
 <div class="about-section">
-    <!-- Left: Text -->
     <div class="about-text">
         <h1 class="text-5xl font-bold text-blue-600">About Me</h1>
         <p class="text-gray-700 text-lg mt-4 leading-relaxed">
@@ -19,12 +18,15 @@
         </ul>
     </div>
 
-    <!-- Right: Images -->
     <div class="about-images">
-        <img src="/image2.png" class="about-img">
-        <img src="/image3.png" class="about-img">
-        <img src="/wordhunt.png" alt="Image 3" class="about-img">
-        <img src="/cubes.png" class="about-img">
+        <img src="/aimage1.png" class="about-img">
+        <img src="/aimage2.png" class="about-img">
+        <img src="/aimage3.png" class="about-img">
+        <img src="/aimage4.png" class="about-img">
+        <img src="/aimage5.png" class="about-img">
+        <img src="/aimage6.png" class="about-img">
+        <img src="/aimage7.png" class="about-img">
+        <img src="/aimage8.png" class="about-img">
     </div>
 </div>
 
@@ -39,35 +41,31 @@
     padding: 2rem;
 }
 
-/* Left side: Text (50% width) */
 .about-text {
     width: 50%;
     min-width: 350px;
     padding: 2rem;
 }
 
-/* Right side: Images (50% width) */
 .about-images {
     width: 50%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 images per row */
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     padding: 2rem;
 }
 
-/* Image styles */
 .about-img {
     width: 100%;
     height: auto;
     border-radius: 10px;
     object-fit: cover;
-    transition: filter 0.3s ease; /* Smooth transition */
-    filter: grayscale(90%); /* Make images black and white */
+    transition: filter 0.3s ease;
+    filter: grayscale(90%);
 }
 
-/* Hover effect */
 .about-img:hover {
-    filter: grayscale(0%); /* Remove grayscale on hover */
+    filter: grayscale(0%);
 }
 
 /* Responsive for mobile */
@@ -82,7 +80,7 @@
     }
 
     .about-images {
-        grid-template-columns: repeat(1, 1fr); /* 1 image per row on mobile */
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 </style>
