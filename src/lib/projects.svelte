@@ -56,6 +56,7 @@
             </a>
             {#if item.images.length !== 0}
                 {#each item.images as image}
+                <!-- svelte-ignore a11y-missing-attribute -->
                 <a class="custommargins">
                 <img src={image.src} alt={image.alt} title={image.alt} width={image.width}>
                 </a>

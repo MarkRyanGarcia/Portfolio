@@ -59,10 +59,14 @@ p {
 }
 
 .inner-header {
-  height:65vh;
-  width:100%;
-  margin: 0;
-  padding: 0;
+    height: 65vh;
+    width: 100%;
+    margin: 0;
+    padding-top: 3rem; /* Ensures space at the top */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content while keeping spacing */
+    align-items: center;
 }
 
 .flex { 
@@ -89,15 +93,19 @@ p {
   background-color: white;
 }
 
+
 .circle-image {
-        width: 25vw;
-        height: 25vw;
-        min-width: 15rem;
-        min-height: 15rem;
-        border-radius: 50%;
-        object-fit: cover;
-        overflow: hidden;
-        border: 5px solid #ccc;
+    width: 25vw;
+    height: 25vw;
+    min-width: 15rem; /* Ensures it doesn't get too small */
+    min-height: 15rem;
+    max-width: 20rem; /* Ensures it doesn't get too big */
+    max-height: 20rem;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    border: 5px solid #ccc;
+    margin-top: 2rem;
 }
 
 /* Animation */
