@@ -37,6 +37,12 @@
             alt: 'Linkedin Profile',
             href: 'https://www.linkedin.com/in/mark-garcia-aa9b2b306/',
         },
+        {
+            text: 'Resume',
+            src: '/file-solid.svg',
+            alt: 'Resume Link',
+            href: 'https://drive.google.com/file/d/1enBVVC-l8nc3DttrY6mRt-jK4pTvLOLW/view?usp=sharing',
+        },
     ];
 
     function scrollToTop() {
@@ -79,7 +85,7 @@
 
   .button {
     background: transparent;
-    font-size: 1vw;
+    font-size: 16px;
     color: white;
     border: none;
     font-weight: 700;
@@ -90,6 +96,7 @@
     align-items: flex-end;
     transition: all 0.2s ease-in-out;
   }
+
 
   .button:hover {
     color: var(--color1);
@@ -102,6 +109,12 @@
     width: 2rem;
     height: 2rem;
   }
+
+  .button-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensures the image scales properly */
+}
 
   @media (max-width: 768px) {
     .button {
