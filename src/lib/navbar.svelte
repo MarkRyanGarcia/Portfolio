@@ -84,9 +84,9 @@
   }
 
   .button {
-    background: transparent;
+    background-color: rgba(255,255,255,.5);
     font-size: 16px;
-    color: white;
+    color: var(--color4);
     border: none;
     font-weight: 700;
     padding: 10px 20px;
@@ -101,7 +101,6 @@
   .button:hover {
     color: var(--color1);
     background: white;
-    /* border: 1px solid black; */
   }
 
   .button-icon {
