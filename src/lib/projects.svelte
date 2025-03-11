@@ -24,7 +24,7 @@
         },
         {
             title: "Marktris",
-            description: "A Tetris clone made in godot. It includes many in-game features to make the game as faithful to modern tetris as possible. This includes 7-bag, wall-kicks, the Super Rotation System, and will soon include more. Web Deployement! Click here ^",
+            description: "A Tetris clone made in godot. It includes many in-game features to make the game as faithful to modern tetris as possible. This includes 7-bag, wall-kicks, the Super Rotation System, and will soon include more. Web Deployment! Click here ^",
             alt: "Tetris Clone Project",
             href: 'https://marktris.markg.dev/',
             images: [
