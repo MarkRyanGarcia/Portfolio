@@ -1,19 +1,4 @@
 <script>
-    // import { onMount } from 'svelte';
-
-    // onMount(() => {
-    //     alert("hi")
-    //     document.addEventListener('scroll', () => {
-    //     const nav = document.querySelector('.navbar');
-    //     if (nav === null) return;
-    //     const scrollamnt = document.documentElement.scrollTop || document.body.scrollTop;
-    //     if (scrollamnt > 64 * 10.8) {
-    //         nav.style.color = "black";
-    //     } else {
-    //         nav.style.color = "white";
-    //     }
-    //     })
-    // });
 
     const Navbuttons = [
         // NOTE:

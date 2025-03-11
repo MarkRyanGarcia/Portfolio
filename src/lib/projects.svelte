@@ -1,8 +1,30 @@
 <script>
     const ProjectList = [
         {
+            title: "Portfolio Website",
+            description: "A Portfolio websit. Click HERE to view",
+            href: 'https://markg.dev/',
+            images: [
+                {
+                src: "/ProjectImages/porf.png",
+                alt: "Portfolio Top Screenshot",
+                width: "400px",
+                },
+                {
+                src: "/ProjectImages/porf2.png",
+                alt: "Portfolio About Me Screenshot",
+                width: "400px",
+                },
+                {
+                src: "/ProjectImages/porf3.png",
+                alt: "Portfolio Projects Screenshot",
+                width: "400px",
+                }
+            ]
+        },
+        {
             title: "Marktris",
-            description: "A Tetris clone made in godot. It includes many in-game features to make the game as faithful to modern tetris as possible. This includes 7-bag, wall-kicks, the Super Rotation System, and will soon include more. Web Deployment coming soon...",
+            description: "A Tetris clone made in godot. It includes many in-game features to make the game as faithful to modern tetris as possible. This includes 7-bag, wall-kicks, the Super Rotation System, and will soon include more. Web Deployement! Click here ^",
             alt: "Tetris Clone Project",
             href: 'https://marktris.markg.dev/',
             images: [
