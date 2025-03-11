@@ -2,7 +2,7 @@
     const ProjectList = [
         {
             title: "Portfolio Website",
-            description: "A Portfolio websit. Click HERE to view",
+            description: "A Portfolio website. Click HERE to view",
             href: 'https://markg.dev/',
             images: [
                 {
