@@ -95,8 +95,6 @@ p {
 
 
 .circle-image {
-    width: 25vw;
-    height: 25vw;
     min-width: 15rem; /* Ensures it doesn't get too small */
     min-height: 15rem;
     max-width: 20rem; /* Ensures it doesn't get too big */
