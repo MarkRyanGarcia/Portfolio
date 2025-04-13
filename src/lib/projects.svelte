@@ -58,6 +58,24 @@
                 }
             ]
         },
+        {
+            title: "Marktris React",
+            description: "Remake of Marktris Godot export in react because it is was very slow. Still heavily WIP",
+            alt: 'Marktris in React',
+            href: 'https://marktris-react.vercel.app/',
+            images: [
+                {
+                src: "/ProjectImages/marktrisreact1.png",
+                alt: "Marktris empty board screenshot",
+                width: "420px",
+                },
+                {
+                src: "/ProjectImages/marktrisreact2.png",
+                alt: "Marktris Gameplay Screenshot",
+                width: "420px",
+                }
+            ]
+        },
     ];
 </script>
 
