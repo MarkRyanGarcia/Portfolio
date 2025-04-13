@@ -67,13 +67,13 @@
         Projects
     </h1>
 </div>
-<div class="projectcontainer">
+<div class="projectcontainer" >
     {#each ProjectList.entries() as [index, item]}
-        <div class="project">
+        <div class="project"  onclick="window.location.href = '{item.href}';">
             <h3 class="text-4xl font-bold text-white custommargins">
                 {item.title}
             </h3>
-            <a class="text-white text-center custommargins" href={item.href} target="_blank">
+            <a class="text-white text-center custommargins" >
                 {item.description}
             </a>
             {#if item.images.length !== 0}
@@ -84,6 +84,7 @@
                 {/each}
             {/if}
         </div>
+
     {/each}
 </div>
 
@@ -113,6 +114,7 @@
         flex-direction: column;
         background-image: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%); 
         margin-bottom:1rem;
+        cursor: pointer;
     }
 
     .custommargins {
