@@ -59,6 +59,24 @@
             ]
         },
         {
+            title: "DoodleJump ACM Workshop",
+            description: 'As part of a beginner-friendly Unity workshop I led, I developed a 2D platformer game inspired by Doodle Jump to teach the fundamentals of game development using Unity and C#. Participants learned hands-on by building the game from scratch, covering key concepts such as: Player movement and physics with Rigidbody2D, Collision handling using OnTriggerEnter2D, Procedural platform spawning and cleanup, Camera tracking and infinite background scrolling, Basic UI design and a real-time score system',
+            alt: 'Doodle Jump Clone – Unity Workshop',
+            href: 'https://github.com/MarkRyanGarcia/Doodle-Jump-Gamedev-SP25',
+            images: [
+                {
+                src: "/ProjectImages/doodlejump1.png",
+                alt: "Doodlejump Presentation Cover Slide Screenshot",
+                width: "320px",
+                },
+                {
+                src: "/ProjectImages/doodlejump2.png",
+                alt: "DoodleJump Unity Screenshot",
+                width: "320px",
+                }
+            ]
+        },
+        {
             title: "Marktris React",
             description: "Remake of Marktris Godot export in react because it is was very slow. Still heavily WIP",
             alt: 'Marktris in React',
@@ -88,7 +106,7 @@
 <div class="projectcontainer" >
     {#each ProjectList.entries() as [index, item]}
         <div class="project"  onclick="window.location.href = '{item.href}';">
-            <h3 class="text-4xl font-bold text-white custommargins">
+            <h3 class="text-4xl font-bold text-white custommargins text-center">
                 {item.title}
             </h3>
             <a class="text-white text-center custommargins" >
