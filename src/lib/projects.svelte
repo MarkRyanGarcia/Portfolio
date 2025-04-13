@@ -62,7 +62,7 @@
             title: "Marktris React",
             description: "Remake of Marktris Godot export in react because it is was very slow. Still heavily WIP",
             alt: 'Marktris in React',
-            href: 'https://marktris-react.vercel.app/',
+            href: 'https://marktris-react.markg.dev/',
             images: [
                 {
                 src: "/ProjectImages/marktrisreact1.png",
