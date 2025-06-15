@@ -27,17 +27,35 @@ export default function Footer() {
                         <Typography variant='h6' color='white' sx={{ marginBottom: 1 }}><strong>Connect</strong></Typography>
                         <Divider sx={{ backgroundColor: '#f2f2f2' }}></Divider>
                         <Stack direction={'row'}>
-                            <IconButton sx={{color: '#f2f2f2'}}
-                                        href='https://www.linkedin.com/in/mark-garcia-aa9b2b306/' target='_blank'>
+                            <IconButton sx={{
+                                color: '#d2d2d2',
+                                transition: 'color 0.2s ease-in-out',
+                                '&:hover': {
+                                    color: 'white',
+                                },
+                            }}
+                                href='https://www.linkedin.com/in/mark-garcia-aa9b2b306/' target='_blank'>
                                 <LinkedIn />
                             </IconButton>
-                            <IconButton sx={{color: '#f2f2f2'}}
-                                        href='https://github.com/MarkRyanGarcia' target='_blank'>
+                            <IconButton sx={{
+                                color: '#d2d2d2',
+                                transition: 'color 0.2s ease-in-out',
+                                '&:hover': {
+                                    color: 'white',
+                                },
+                            }}
+                                href='https://github.com/MarkRyanGarcia' target='_blank'>
                                 <GitHub />
                             </IconButton>
-                            <IconButton sx={{color: '#f2f2f2'}}
-                                        href='https://www.instagram.com/mark.r.ga/' target='_blank'>
-                                <Instagram/>
+                            <IconButton sx={{
+                                color: '#d2d2d2',
+                                transition: 'color 0.2s ease-in-out',
+                                '&:hover': {
+                                    color: 'white',
+                                },
+                            }}
+                                href='https://www.instagram.com/mark.r.ga/' target='_blank'>
+                                <Instagram />
                             </IconButton>
                         </Stack>
                     </Stack>
