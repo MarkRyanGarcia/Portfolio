@@ -26,22 +26,22 @@ export default function Home() {
                     />
                     <Stack sx={{ textAlign: { xs: 'center', md: 'left' }, maxWidth: 550, p: 2 }} spacing={1}>
                         <Typography variant="h4">
-                            <strong>👋 Hi, <span style={{ color: '#056FBA' }}>I'm Mark :)</span></strong>
+                            <strong>👋 Hi, <span style={{ color: '#0593ea' }}>I'm Mark :)</span></strong>
                         </Typography>
                         <Typography>
-                            An undergraduate student at <strong style={{ color: '#056FBA' }}>CSU Fullerton</strong> 🐘 | CS Major, Math Minor
+                            An undergraduate student at <strong style={{ color: '#0593ea' }}>CSU Fullerton</strong> 🐘 | CS Major, Math Minor
                         </Typography>
                         <Typography>
-                            👨‍💼 <strong><span style={{ color: '#056FBA' }}>President</span></strong> of ACM at CSUF
+                            👨‍💼 <strong><span style={{ color: '#0593ea' }}>President</span></strong> of ACM at CSUF
                         </Typography>
                         <Typography>
-                            📐 <strong><span style={{ color: '#056FBA' }}>Supplemental Instructor</span></strong> for Calc II
+                            📐 <strong><span style={{ color: '#0593ea' }}>Supplemental Instructor</span></strong> for Calc II
                         </Typography>
                         <Typography>
                             💻 I have experience with: Python, JavaScript, Typescript, HTML/CSS, C/C++, C#, GDScript, Intel x86-64 ISA, SQL (Postgres), and always learning more...
                         </Typography>
                         <Typography>
-                            💯 Fun fact: I have a collection of <strong><span style={{ color: '#056FBA' }}>60+ Rubik's Cubes</span></strong>
+                            💯 Fun fact: I have a collection of <strong><span style={{ color: '#0593ea' }}>60+ Rubik's Cubes</span></strong>
                         </Typography>
                     </Stack>
                 </Stack>
