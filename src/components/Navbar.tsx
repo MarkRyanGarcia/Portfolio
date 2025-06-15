@@ -10,7 +10,7 @@ export default function Navbar() {
     const location = useLocation();
 
     const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
-    const tabValue = location.pathname.slice(1);
+    const tabValue = location.pathname === '/' ? '/' : location.pathname;
 
     const handleMenuClick = (event: React.MouseEvent<HTMLElement>) => {
         setAnchorEl(event.currentTarget);
