@@ -8,7 +8,7 @@ export default function Footer() {
             sx={{
                 py: 2,
                 mt: 'auto',
-                background: 'linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%)',
+                background: 'linear-gradient(60deg, #05A3FF 0%, #FF406E 100%)',
                 textAlign: 'center',
                 // width: '100vw',
             }}
@@ -18,8 +18,8 @@ export default function Footer() {
                 <Grid size={4} sx={{ textAlign: 'left' }}>
                     <Stack >
                         <Typography variant='h6' color='white' sx={{ marginBottom: 1 }}><strong>Mark Garcia</strong></Typography>
-                        <Typography variant='caption' sx={{ color: '#d2d2d2' }}>Full Stack Developer</Typography>
-                        <Typography variant='caption' sx={{ color: '#d2d2d2' }}>Creating digitial experiences that matter</Typography>
+                        <Typography variant='caption' sx={{ color: '#f2f2f2' }}>Full Stack Developer</Typography>
+                        <Typography variant='caption' sx={{ color: '#f2f2f2' }}>Creating digitial experiences that matter</Typography>
                     </Stack>
                 </Grid>
                 <Grid size={1} sx={{ textAlign: 'left' }}>
@@ -28,7 +28,7 @@ export default function Footer() {
                         <Divider sx={{ backgroundColor: '#f2f2f2' }}></Divider>
                         <Stack direction={'row'}>
                             <IconButton sx={{
-                                color: '#d2d2d2',
+                                color: '#dddddd',
                                 transition: 'color 0.2s ease-in-out',
                                 '&:hover': {
                                     color: 'white',
@@ -38,7 +38,7 @@ export default function Footer() {
                                 <LinkedIn />
                             </IconButton>
                             <IconButton sx={{
-                                color: '#d2d2d2',
+                                color: '#dddddd',
                                 transition: 'color 0.2s ease-in-out',
                                 '&:hover': {
                                     color: 'white',
@@ -48,7 +48,7 @@ export default function Footer() {
                                 <GitHub />
                             </IconButton>
                             <IconButton sx={{
-                                color: '#d2d2d2',
+                                color: '#dddddd',
                                 transition: 'color 0.2s ease-in-out',
                                 '&:hover': {
                                     color: 'white',

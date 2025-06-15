@@ -12,7 +12,7 @@ export default function Navbar() {
 
     return (
         <>
-            <AppBar position='fixed' sx={{ background: 'linear-gradient(60deg, rgb(84, 58, 183) 0%, rgb(0, 172, 193) 100%)' }}>
+            <AppBar position='fixed' sx={{ background: 'linear-gradient(60deg, #05A3FF 0%, #FF406E 100%)' }}>
                 <Toolbar>
                     <Typography
                         variant='h5'
