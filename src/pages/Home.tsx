@@ -3,9 +3,8 @@ import { Avatar, Box, Stack, Typography } from "@mui/material";
 export default function Home() {
 
     return (
-        <Box sx={{ display: 'flex', justifyContent: 'center', width: '100%', textAlign: 'center', }}>
-            <Stack spacing={1} sx={{ alignItems: 'center', }}>
-                <Typography variant='h3' color='textSecondary'><strong>Mark Ryan Garcia</strong></Typography>
+        <Box sx={{ display: 'flex', justifyContent: 'center', width: '100%', textAlign: 'center', alignItems: 'center', py: { xs: 4, md: 15 } }} >
+            <Stack spacing={1} sx={{ alignItems: 'center', justifyContent: 'center' }}>
                 <Stack
                     direction={{ xs: 'column', md: 'row' }}
                     spacing={4}
@@ -13,7 +12,7 @@ export default function Home() {
                     justifyContent="center"
                 >
                     <Avatar
-                        src="/mark/mark2.png"
+                        src="/mark/mark.png"
                         sx={{
                             width: 'clamp(160px, 20vw, 200px)',
                             height: 'clamp(160px, 20vw, 200px)',
@@ -25,18 +24,26 @@ export default function Home() {
                             },
                         }}
                     />
-
-                    <Box sx={{ textAlign: { xs: 'center', md: 'left' }, maxWidth: 500 }}>
+                    <Stack sx={{ textAlign: { xs: 'center', md: 'left' }, maxWidth: 550, p: 2 }} spacing={1}>
                         <Typography variant="h4">
-                            <strong>👋 Hi, <span style={{ color: '#056FBA' }}>I'm Mark</span></strong>
+                            <strong>👋 Hi, <span style={{ color: '#056FBA' }}>I'm Mark :)</span></strong>
                         </Typography>
                         <Typography>
-                            An undergraduate student at <strong style={{ color: '#056FBA' }}>CSU Fullerton</strong> 🐘
+                            An undergraduate student at <strong style={{ color: '#056FBA' }}>CSU Fullerton</strong> 🐘 | CS Major, Math Minor
                         </Typography>
                         <Typography>
-                            CS Major, Math Minor
+                            👨‍💼 <strong><span style={{ color: '#056FBA' }}>President</span></strong> of ACM at CSUF
                         </Typography>
-                    </Box>
+                        <Typography>
+                            📐 <strong><span style={{ color: '#056FBA' }}>Supplemental Instructor</span></strong> for Calc II
+                        </Typography>
+                        <Typography>
+                            💻 I have experience with: Python, JavaScript, Typescript, HTML/CSS, C/C++, C#, GDScript, Intel x86-64 ISA, SQL (Postgres), and always learning more...
+                        </Typography>
+                        <Typography>
+                            💯 Fun fact: I have a collection of <strong><span style={{ color: '#056FBA' }}>60+ Rubik's Cubes</span></strong>
+                        </Typography>
+                    </Stack>
                 </Stack>
             </Stack>
         </Box>
