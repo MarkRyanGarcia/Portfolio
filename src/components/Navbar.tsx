@@ -12,9 +12,13 @@ export default function Navbar() {
 
     return (
         <>
-            <AppBar color='inherit' position='fixed'>
+            <AppBar position='fixed' sx={{ background: 'linear-gradient(60deg, rgb(84, 58, 183) 0%, rgb(0, 172, 193) 100%)' }}>
                 <Toolbar>
-                    <Typography variant='h5' sx={{ flexGrow: 1 }}>
+                    <Typography
+                        variant='h5'
+                        sx={{ flexGrow: 1, cursor: 'pointer' }}
+                        onClick={() => navigate('/')}
+                    >
                         <strong>Mark Garcia</strong>
                     </Typography>
                     <Tabs
@@ -22,6 +26,15 @@ export default function Navbar() {
                         onChange={handleTabClick}
                         textColor="inherit"
                         indicatorColor='primary'
+                        slotProps={{ indicator: { sx: { height: 3 } } }}
+                        sx={{
+                            '& .MuiTab-root': {
+                                transition: 'color 0.2s ease-in-out',
+                                '&:hover': {
+                                    color: 'rgb(84, 58, 183)',
+                                },
+                            }
+                        }}
                     >
                         <Tab value="home" label="Home" />
                         <Tab value="projects" label="Projects" />

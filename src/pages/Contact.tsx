@@ -8,5 +8,5 @@ export default function Contact() {
                 <Typography variant='h3' color='textSecondary'><strong>Contact Page</strong></Typography>
             </Stack>
         </Container>
-    )
+    );
 }

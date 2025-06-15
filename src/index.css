@@ -1,6 +1,13 @@
 :root {
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-    background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
-    overflow: hidden;
-    height: 100vh;
+    background: #FAFAFA;
+    min-height: 100vh;
+    overflow-x: hidden;
+    
 }
+
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
