@@ -63,7 +63,7 @@ export default function Footer() {
             </Grid>
             <Divider variant='middle' sx={{ backgroundColor: '#d2d2d2', my: 1 }}></Divider>
             <Typography variant="body2" color="white" sx={{ paddingTop: 1 }}>
-                © {new Date().getFullYear()} Mark Garcia. All rights reserved.
+                © {new Date().getFullYear()} | Made with 💗 by Markypoo
             </Typography>
         </Stack>
     );
