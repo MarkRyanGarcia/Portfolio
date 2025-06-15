@@ -12,7 +12,7 @@ export default function Navbar() {
 
     return (
         <>
-            <AppBar position='fixed' sx={{ background: 'linear-gradient(60deg, #05A3FF 0%, #FF406E 100%)' }}>
+            <AppBar position='fixed' sx={{ background: 'linear-gradient(60deg, #05A3FF 0%, #053A75 100%)' }}>
                 <Toolbar>
                     <Typography
                         variant='h5'
@@ -26,16 +26,7 @@ export default function Navbar() {
                         onChange={handleTabClick}
                         textColor="inherit"
                         indicatorColor='primary'
-                        slotProps={{ indicator: { sx: { height: 3 } } }}
-                        sx={{
-                            '& .MuiTab-root': {
-                                transition: 'color 0.2s ease-in-out',
-                                '&:hover': {
-                                    color: 'rgb(84, 58, 183)',
-                                },
-                            }
-                        }}
-                    >
+                        slotProps={{ indicator: { sx: { height: 3 } } }}>
                         <Tab value="home" label="Home" />
                         <Tab value="projects" label="Projects" />
                         <Tab value="contact" label="Contact" />

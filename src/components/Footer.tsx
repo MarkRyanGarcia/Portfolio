@@ -8,7 +8,7 @@ export default function Footer() {
             sx={{
                 py: 2,
                 mt: 'auto',
-                background: 'linear-gradient(60deg, #05A3FF 0%, #FF406E 100%)',
+                background: 'linear-gradient(60deg, #05A3FF 0%, #053A75 100%)',
                 textAlign: 'center',
                 // width: '100vw',
             }}
@@ -61,7 +61,7 @@ export default function Footer() {
                     </Stack>
                 </Grid>
             </Grid>
-            <Divider variant='middle' sx={{ backgroundColor: '#d2d2d2', my: 1 }}></Divider>
+            <Divider variant='middle' sx={{ backgroundColor: '#fcfcfc', my: 1 }}></Divider>
             <Typography variant="body2" color="white" sx={{ paddingTop: 1 }}>
                 © {new Date().getFullYear()} | Made with 💗 by Markypoo
             </Typography>
