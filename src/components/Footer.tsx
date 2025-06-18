@@ -29,9 +29,10 @@ export default function Footer() {
                         <Stack direction={'row'}>
                             <IconButton sx={{
                                 color: '#dddddd',
-                                transition: 'color 0.2s ease-in-out',
+                                transition: 'all 0.2s ease-in-out',
                                 '&:hover': {
                                     color: 'white',
+                                    transform: 'translateY(-2px)'
                                 },
                             }}
                                 href='https://www.linkedin.com/in/mark-garcia-aa9b2b306/' target='_blank'>
@@ -39,9 +40,10 @@ export default function Footer() {
                             </IconButton>
                             <IconButton sx={{
                                 color: '#dddddd',
-                                transition: 'color 0.2s ease-in-out',
+                                transition: 'all 0.2s ease-in-out',
                                 '&:hover': {
                                     color: 'white',
+                                    transform: 'translateY(-2px)'
                                 },
                             }}
                                 href='https://github.com/MarkRyanGarcia' target='_blank'>
@@ -49,9 +51,10 @@ export default function Footer() {
                             </IconButton>
                             <IconButton sx={{
                                 color: '#dddddd',
-                                transition: 'color 0.2s ease-in-out',
+                                transition: 'all 0.2s ease-in-out',
                                 '&:hover': {
                                     color: 'white',
+                                    transform: 'translateY(-2px)'
                                 },
                             }}
                                 href='https://www.instagram.com/mark.r.ga/' target='_blank'>
