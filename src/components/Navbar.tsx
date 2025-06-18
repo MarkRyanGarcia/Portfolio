@@ -35,7 +35,7 @@ export default function Navbar() {
         <AppBar position="sticky" sx={{
             zIndex: (theme) => theme.zIndex.drawer + 1,
             background: 'linear-gradient(60deg, #05A3FF 0%, #053A75 100%)',
-          }}>
+        }}>
             <Toolbar>
                 <Typography
                     variant="h5"
@@ -43,9 +43,9 @@ export default function Navbar() {
                     sx={{
                         flexGrow: 1, cursor: 'pointer',
                         transition: 'all 0.2s ease-in-out',
-                            '&:hover': {
-                                transform: 'translateY(-3px)'
-                            }
+                        '&:hover': {
+                            transform: 'translateY(-3px)'
+                        }
                     }}
                 >
                     <strong>Mark Ryan Garcia</strong>
