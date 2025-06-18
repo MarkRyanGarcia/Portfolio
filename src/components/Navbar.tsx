@@ -39,8 +39,14 @@ export default function Navbar() {
             <Toolbar>
                 <Typography
                     variant="h5"
-                    sx={{ flexGrow: 1, cursor: 'pointer' }}
                     onClick={() => navigate('/')}
+                    sx={{
+                        flexGrow: 1, cursor: 'pointer',
+                        transition: 'all 0.2s ease-in-out',
+                            '&:hover': {
+                                transform: 'translateY(-3px)'
+                            }
+                    }}
                 >
                     <strong>Mark Ryan Garcia</strong>
                 </Typography>
