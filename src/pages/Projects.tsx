@@ -27,9 +27,18 @@ export default function Projects() {
         {
             title: 'Marktris',
             description: 'A Tetris clone made in godot. It includes many in-game features to make the game as faithful to modern tetris as possible. This includes 7-bag, wall-kicks, and the Super Rotation System. Warning: Use Chrome for best experience.',
-            image_path: '/public/ProjectImages/marktris2.png',
+            image_path: '/public/ProjectImages/marktris.png',
             links: {
                 Deployment: 'https://marktris.markg.dev/',
+            }
+        },
+        {
+            title: 'NeonChat',
+            description: 'Submission for Fullyhacks 2024. Neonchat is a Bluetooth-based direct messaging chatbox that allows seamless communication between devices.',
+            image_path: '/public/ProjectImages/neonchat.png',
+            links: {
+                Deployment: 'https://jowen-ster.github.io/FULLYHACKS_NEONCHAT/',
+                Github: 'https://github.com/JOwen-ster/FULLYHACKS_NEONCHAT',
             }
         },
         {
@@ -79,7 +88,7 @@ export default function Projects() {
                     projects.map((project, project_index) => {
                         const isOdd = project_index % 2 === 0;
                         return (
-                            <Stack sx={{ alignItems: 'center', width: '100%', backgroundColor: `${isOdd ? '' : 'rgba(5, 147, 234, .25)'}` }}>
+                            <Stack sx={{ alignItems: 'center', width: '100%', backgroundColor: `${isOdd ? '' : 'rgba(200, 200, 200, .25)'}` }}>
                                 <Stack sx={{ width: '70vw', p: 1 }}>
                                     <Stack sx={{ textAlign: 'center', alignItems: 'center', }} spacing={2}>
                                         <Typography variant='h6'>{project.title}</Typography>
