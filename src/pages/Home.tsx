@@ -1,6 +1,7 @@
 import { Avatar, Box, Button, Stack, Typography } from "@mui/material";
 
 export default function Home() {
+    const textHighlight = { color: '#0593ea' };
 
     return (
         <Box sx={{ display: 'flex', justifyContent: 'center', width: '100%', textAlign: 'center', alignItems: 'center', py: { xs: 4, md: 15 } }} >
@@ -26,25 +27,25 @@ export default function Home() {
                     />
                     <Stack sx={{ textAlign: { xs: 'center', md: 'left' }, maxWidth: 540, p: 2 }} spacing={1}>
                         <Typography variant="h4">
-                            <strong>👋 Hi, <span style={{ color: '#0593ea' }}>I'm Mark :)</span></strong>
+                            <strong>👋 Hi, <span style={textHighlight}>I'm Mark :)</span></strong>
                         </Typography>
                         <Typography>
-                            An undergraduate student at <strong style={{ color: '#0593ea' }}>CSU Fullerton</strong> 🐘 | CS Major, Math Minor
+                            An undergraduate student at <strong style={textHighlight}>CSU Fullerton</strong> 🐘 | CS Major, Math Minor
                         </Typography>
                         <Typography>
-                            💼 <strong><span style={{ color: '#0593ea' }}>SWE Intern</span></strong> at Glenair, Inc. - Summer 2025
+                            💼 <strong><span style={textHighlight}>SWE Intern</span></strong> at Glenair, Inc. - Summer 2025
                         </Typography>
                         <Typography>
-                            👨‍💼 <strong><span style={{ color: '#0593ea' }}>President</span></strong> of <a href="https://acmcsuf.com" target="_blank">Association for Computing Machinery, CSUF Chapter</a>
+                            👨‍💼 <strong><span style={textHighlight}>President</span></strong> of <a href="https://acmcsuf.com" target="_blank">Association for Computing Machinery, CSUF Chapter</a>
                         </Typography>
                         <Typography>
-                            📐 <strong><span style={{ color: '#0593ea' }}>Supplemental Instructor</span></strong> for Calc II at CSU Fullerton
+                            📐 <strong><span style={textHighlight}>Supplemental Instructor</span></strong> for Calc II at CSU Fullerton
                         </Typography>
                         <Typography>
                             💻 I have experience with: Python, JavaScript, Typescript, HTML/CSS, C/C++, C#, GDScript, Intel x86-64 ISA, SQL, and always learning more...
                         </Typography>
                         <Typography>
-                            💯 Fun fact: I have a collection of <strong><span style={{ color: '#0593ea' }}>60+ Rubik's Cubes</span></strong>
+                            💯 Fun fact: I have a collection of <strong><span style={textHighlight}>60+ Rubik's Cubes</span></strong>
                         </Typography>
                     </Stack>
                 </Stack>
