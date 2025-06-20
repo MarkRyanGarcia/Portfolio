@@ -19,7 +19,7 @@ export default function Projects() {
         {
             title: 'DoodleJump Workshop',
             description: 'As part of a beginner-friendly Unity workshop I led, I developed a 2D platformer game inspired by Doodle Jump to teach the fundamentals of game development using Unity and C#.',
-            image_path: '/public/ProjectImages/doodlejump1.png',
+            image_path: '/ProjectImages/doodlejump1.png',
             links: {
                 Github: 'https://github.com/MarkRyanGarcia/Doodle-Jump-Gamedev-SP25'
             }
@@ -27,7 +27,7 @@ export default function Projects() {
         {
             title: 'Marktris',
             description: 'A Tetris clone made in godot. It includes many in-game features to make the game as faithful to modern tetris as possible. This includes 7-bag, wall-kicks, and the Super Rotation System. Warning: Use Chrome for best experience.',
-            image_path: '/public/ProjectImages/marktris.png',
+            image_path: '/ProjectImages/marktris.png',
             links: {
                 Deployment: 'https://marktris.markg.dev/',
             }
@@ -35,7 +35,7 @@ export default function Projects() {
         {
             title: 'NeonChat',
             description: 'Submission for Fullyhacks 2024. Neonchat is a Bluetooth-based direct messaging chatbox that allows seamless communication between devices.',
-            image_path: '/public/ProjectImages/neonchat.png',
+            image_path: '/ProjectImages/neonchat.png',
             links: {
                 Deployment: 'https://jowen-ster.github.io/FULLYHACKS_NEONCHAT/',
                 Github: 'https://github.com/JOwen-ster/FULLYHACKS_NEONCHAT',
@@ -44,7 +44,7 @@ export default function Projects() {
         {
             title: 'Portolio Site',
             description: "Hey what's this doing here?",
-            image_path: '/public/ProjectImages/portfolio.png',
+            image_path: '/ProjectImages/portfolio.png',
             links: {
                 Deployment: 'https://markg.dev/',
                 Github: 'https://github.com/MarkRyanGarcia/Portfolio'
