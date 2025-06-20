@@ -43,7 +43,7 @@ export default function Projects() {
         },
         {
             title: 'Portolio Site',
-            description: "Hey what's this doing here?",
+            description: "Hey, what's this doing here?",
             image_path: '/ProjectImages/portfolio.png',
             links: {
                 Deployment: 'https://markg.dev/',
