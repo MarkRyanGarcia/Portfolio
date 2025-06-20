@@ -1,4 +1,4 @@
-import { Avatar, Box, Stack, Typography } from "@mui/material";
+import { Avatar, Box, Button, Stack, Typography } from "@mui/material";
 
 export default function Home() {
 
@@ -48,6 +48,11 @@ export default function Home() {
                         </Typography>
                     </Stack>
                 </Stack>
+                <Button
+                    variant="outlined"
+                    href="https://github.com/MarkRyanGarcia/Resume/blob/main/resume.pdf"
+                    target="_blank"
+                >Check out my Resume</Button>
             </Stack>
         </Box>
     );
