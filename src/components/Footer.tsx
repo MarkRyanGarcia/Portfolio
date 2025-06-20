@@ -1,7 +1,9 @@
 import { GitHub, Instagram, LinkedIn } from '@mui/icons-material';
-import { Divider, Grid, IconButton, Stack, Typography } from '@mui/material';
+import { Divider, Grid, IconButton, Stack, Typography, useMediaQuery, useTheme } from '@mui/material';
 
 export default function Footer() {
+    const theme = useTheme();
+    const isMobile = useMediaQuery(theme.breakpoints.down('md'));
     return (
         <Stack
             component="footer"
@@ -14,7 +16,7 @@ export default function Footer() {
             }}
         >
             <Grid container>
-                <Grid size={2}></Grid>
+                <Grid size={isMobile ? 1 : 2}></Grid>
                 <Grid size={4} sx={{ textAlign: 'left' }}>
                     <Stack >
                         <Typography variant='h6' color='white' sx={{ marginBottom: 1 }}><strong>Mark Garcia</strong></Typography>
@@ -22,6 +24,7 @@ export default function Footer() {
                         <Typography variant='caption' sx={{ color: '#f2f2f2' }}>Creating digitial experiences that matter</Typography>
                     </Stack>
                 </Grid>
+                {isMobile && <Grid size={1}></Grid>}
                 <Grid size={1} sx={{ textAlign: 'left' }}>
                     <Stack>
                         <Typography variant='h6' color='white' sx={{ marginBottom: 1 }}><strong>Connect</strong></Typography>
