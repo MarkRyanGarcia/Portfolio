@@ -38,7 +38,7 @@ export default function Footer() {
                                     transform: 'translateY(-2px)'
                                 },
                             }}
-                                href='https://www.linkedin.com/in/mark-garcia-aa9b2b306/' target='_blank'>
+                                href='https://www.linkedin.com/in/markryangarcia/' target='_blank'>
                                 <LinkedIn />
                             </IconButton>
                             <IconButton sx={{
