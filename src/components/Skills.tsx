@@ -1,4 +1,4 @@
-import { Box, Chip, ListItem, Stack, Typography } from "@mui/material";
+import { Box, Chip, Stack, Typography } from "@mui/material";
 import { textHighlight } from "../pages/Home";
 import MinIO from '/icons/minio.svg';
 
