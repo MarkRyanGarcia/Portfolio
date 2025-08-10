@@ -1,3 +1,4 @@
+import { GitHub, Language } from "@mui/icons-material";
 import { Button, Stack, Typography } from "@mui/material";
 
 interface Links {
@@ -90,6 +91,7 @@ export default function Projects() {
                                         <Stack direction="row" spacing={2} sx={{ justifyContent: 'center' }}>
                                             {project.links.Deployment && (
                                                 <Button
+                                                    startIcon={<Language />}
                                                     variant="contained"
                                                     color="info"
                                                     href={project.links.Deployment}
@@ -100,6 +102,7 @@ export default function Projects() {
                                             )}
                                             {project.links.Github && (
                                                 <Button
+                                                    startIcon={<GitHub />}
                                                     variant="contained"
                                                     color="info"
                                                     href={project.links.Github}

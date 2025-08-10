@@ -2,6 +2,7 @@ import { Alert, Button, CircularProgress, Container, Stack, TextField, Typograph
 import { Controller, useForm } from 'react-hook-form';
 import { useState } from 'react';
 import useWeb3Forms from '@web3forms/react';
+import { Email } from '@mui/icons-material';
 
 interface FormData {
     name: string;
@@ -145,6 +146,7 @@ export default function Contact() {
                     <input type="hidden" name="redirect" value="false" />
 
                     <Button
+                        startIcon={<Email />}
                         type="submit"
                         variant="contained"
                         disabled={isSubmitting}

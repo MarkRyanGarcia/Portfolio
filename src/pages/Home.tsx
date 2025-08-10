@@ -1,3 +1,4 @@
+import { ContactPage, LinkedIn } from "@mui/icons-material";
 import { Avatar, Box, Button, Stack, Typography } from "@mui/material";
 
 export default function Home() {
@@ -47,13 +48,25 @@ export default function Home() {
                         <Typography>
                             💯 Fun fact: I have a collection of <strong><span style={textHighlight}>60+ Rubik's Cubes</span></strong>
                         </Typography>
+                        <Box sx={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
+                            <Button
+                                startIcon={<ContactPage />}
+                                variant="outlined"
+                                href="https://github.com/MarkRyanGarcia/Resume/blob/main/resume.pdf"
+                                target="_blank"
+                            >
+                                Check out my Resume
+                            </Button>
+                            <Button
+                                startIcon={<LinkedIn />}
+                                variant="contained"
+                                href='https://www.linkedin.com/in/markryangarcia/' target='_blank'
+                            >
+                                Connect
+                            </Button>
+                        </Box>
                     </Stack>
                 </Stack>
-                <Button
-                    variant="outlined"
-                    href="https://github.com/MarkRyanGarcia/Resume/blob/main/resume.pdf"
-                    target="_blank"
-                >Check out my Resume</Button>
             </Stack>
         </Box>
     );
