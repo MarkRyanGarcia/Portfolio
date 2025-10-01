@@ -1,5 +1,5 @@
-import { GitHub, Instagram, LinkedIn, YouTube } from '@mui/icons-material';
-import { Divider, Grid, IconButton, Snackbar, Stack, Tooltip, Typography, useMediaQuery, useTheme } from '@mui/material';
+import { GitHub, Instagram, LinkedIn } from '@mui/icons-material';
+import { Grid, IconButton, Snackbar, Stack, Tooltip, Typography, useMediaQuery, useTheme } from '@mui/material';
 import DiscordIcon from "../../public/icons/discord.svg?react";
 import { useState } from 'react';
 
