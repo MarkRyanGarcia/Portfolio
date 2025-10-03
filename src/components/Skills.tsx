@@ -1,6 +1,6 @@
 import { Box, Chip, Stack, Typography } from "@mui/material";
 import { textHighlight } from "../pages/Home";
-import MinIO from "../../public/icons/minio.svg?react";
+import MinIO from "../../public/icons/minio.svg";
 
 interface skillsChip {
     name: string;
