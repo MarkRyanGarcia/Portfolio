@@ -50,13 +50,46 @@ export default function Footer() {
                                 onClose={() => { setClipboardAlertOpen(false); }}
                                 message="Copied to Clipboard"
                             />
-                            <IconButton href="https://instagram.com/mark.r.ga/" target="_blank" sx={{ color: '#dddddd', "&:hover": { color: 'white' } }}>
+                            <IconButton
+                                href="https://instagram.com/mark.r.ga/"
+                                target="_blank"
+                                sx={{
+                                    color: "#dddddd",
+                                    transition: "all 0.2s ease-in-out",
+                                    "&:hover": {
+                                        color: "white",
+                                        transform: "translateY(-2px)",
+                                    },
+                                }}
+                            >
                                 <Instagram />
                             </IconButton>
-                            <IconButton href="https://github.com/MarkRyanGarcia" target="_blank" sx={{ color: '#dddddd', "&:hover": { color: 'white' } }}>
+                            <IconButton
+                                href="https://github.com/MarkRyanGarcia"
+                                target="_blank"
+                                sx={{
+                                    color: "#dddddd",
+                                    transition: "all 0.2s ease-in-out",
+                                    "&:hover": {
+                                        color: "white",
+                                        transform: "translateY(-2px)",
+                                    },
+                                }}
+                            >
                                 <GitHub />
                             </IconButton>
-                            <IconButton href="https://linkedin.com/in/markryangarcia" target="_blank" sx={{ color: '#dddddd', "&:hover": { color: 'white' } }}>
+                            <IconButton
+                                href="https://linkedin.com/in/markryangarcia"
+                                target="_blank"
+                                sx={{
+                                    color: "#dddddd",
+                                    transition: "all 0.2s ease-in-out",
+                                    "&:hover": {
+                                        color: "white",
+                                        transform: "translateY(-2px)",
+                                    },
+                                }}
+                            >
                                 <LinkedIn />
                             </IconButton>
                         </Stack>
