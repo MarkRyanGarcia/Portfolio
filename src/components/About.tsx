@@ -34,16 +34,16 @@ export default function About() {
                             An undergraduate student at <strong style={textHighlight}>CSU Fullerton</strong> 🐘 | CS Major, Math Minor
                         </Typography>
                         <Typography>
-                            💼 <strong><span style={textHighlight}>SWE Intern</span></strong> at Glenair, Inc. - Summer 2025
+                            <strong><span style={textHighlight}>SWE Intern</span></strong> at Glenair, Inc. - Summer 2025
                         </Typography>
                         <Typography>
-                            👨‍💼 <strong><span style={textHighlight}>President</span></strong> of <a href="https://acmcsuf.com" target="_blank">Association for Computing Machinery, CSUF Chapter</a>
+                            <strong><span style={textHighlight}>President</span></strong> of <a href="https://acmcsuf.com" target="_blank">Association for Computing Machinery, CSUF Chapter</a>
                         </Typography>
                         <Typography>
-                            📐 <strong><span style={textHighlight}>Supplemental Instructor</span></strong> for Calc II at CSU Fullerton
+                            <strong><span style={textHighlight}>Supplemental Instructor</span></strong> for Calc II at CSU Fullerton
                         </Typography>
                         <Typography>
-                            💯 Fun fact: I have a collection of <strong><span style={textHighlight}>60+ Rubik's Cubes</span></strong>
+                            Fun fact: I have a collection of <strong><span style={textHighlight}>60+ Rubik's Cubes</span></strong>
                         </Typography>
                         <Box sx={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
                             <Button

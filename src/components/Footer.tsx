@@ -106,11 +106,6 @@ export default function Footer() {
                             component="a"
                             sx={{
                                 color: "#dddddd",
-                                textDecoration: "none",
-                                "&:hover": {
-                                    color: "white",
-                                    textDecoration: "underline",
-                                },
                             }}
                         >
                             © {new Date().getFullYear()} | Made with 💗
